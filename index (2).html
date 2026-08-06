@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Portafolio</title>
+
+    <style>
+        body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f4f8;
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
+        header {
+        background-color: #1e293b;
+        color: #ffffff;
+        text-align: center;
+        padding: 20px;
+        }
+        nav {
+        background-color: #334155;
+        text-align: center;
+        padding: 10px;
+        }
+        nav a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 8px 16px;
+        display: inline-block;
+        }
+        nav a:hover {
+        background-color: #948af5;
+        border-radius: 4px;
+        }
+        main{
+        display:flex;
+        flex: 1;
+        }
+        aside {
+        width: 25%;
+        background-color: #ffffff;
+        padding: 20px;
+        box-sizing: border-box;
+        }
+        aside h3 {
+        color: #1e293b;
+        border-bottom: 2px solid #0ea5e9;
+        padding-bottom: 5px;
+        }
+        aside ul {
+        list-style-type: none;
+        padding: 0;
+        }
+        aside li {
+        margin: 12px 0;
+        }
+        aside a {
+        color: #789ed3;
+        text-decoration: none;
+        display: inline-block;
+        padding: 6px;
+        }
+        aside a:hover {
+        background-color: #f1f5f9;
+        color: #e47dd6;
+        padding-left: 12px;
+        }
+        section {
+        width: 75%;
+        padding: 20px;
+        box-sizing: border-box;
+        }
+        iframe {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #9ae9ab;
+        background-color: #ffffff;
+        }
+        footer {
+        background-color: #1e293b;
+        color: #ffffff;
+        text-align: center;
+        padding: 15px;
+        }
+        footer span {
+        color: #e91b7b;
+        font-weight: bold;
+        }
+        </style>
+
+</head>
+<body>
+    <header>
+        <h1>Mi Portafolio Digital</h1>
+    </header>
+    <nav>
+        <a href=>
+            <i class="https://github.com/miguelygomez/informatica"></i> GitHub</a>
+        <a href="https://drive.google.com/drive/folders/1LItpK-4LlDgbXNdpf7t0TNSB7CU8QHOF"><i class="bi bi-archive-fill"></i> Drive</a>
+    </nav>
+    <main>
+        <aside>
+            <h3 class="ejt">Mis Ejercicios:</h3>
+            <ul>
+                <li><a href="./pages/listas.html" target="visor" class="ej">Ejercicio 1:</a> Lista</li>
+                <li><a href="./pages/tablas.html" target="visor" class="ej">Ejercicio 2:</a> Tabla</li>
+                <li><a href="./pages/tienda.html" target="visor" class="ej">Ejercicio 3:</a> Tienda</li>
+                <li><a href="./pages/semantica.html" target="visor" class="ej">Ejercicio 4:</a> Semantica</li>
+                <li><a href="./pages/iframe.html" target="visor" class="ej">Ejercicio 5:</a> Iframe</li>
+            </ul>
+        </aside>
+        <section>
+            <iframe src="" name="visor" frameborder="0"></iframe>
+        </section>
+    </main>
+    <footer>
+        <p>Diseñado por: <span>isabella miguel</span> y <span>candela gomez</span> | Curso: <span>3C</span></p>
+    </footer>
+</body>
+</html>
